@@ -1,68 +1,40 @@
-# Python Bootcamp
+# 🚀 Python & Machine Learning Bootcamp Projects
 
-A collection of exercises, experiments, and projects developed during my Python bootcamp.
+This repository tracks my hands-on journey through Python programming, Machine Learning, Deep Learning, and NLP concepts. It contains core exercises, notebook explorations, and end-to-end modular mini-projects.
 
-This repository documents my learning journey from Python fundamentals to machine learning, computer vision, graph analysis.
-## Topics
+---
 
-* Python Fundamentals
-* Functions and Object-Oriented Programming
-* NumPy
-* Pandas
-* Matplotlib
-* Computer Vision with OpenCV
-* Graph Analysis with NetworkX
-* Scikit-learn
+## 📌 Featured Projects
 
-## Repository Structure
+| Project | Domain | Core Tech / Concepts | Direct Link |
+| :--- | :--- | :--- | :--- |
+| **Scientific Semantic Search** | NLP / IR | TF-IDF, Sentence Transformers, Cross-Encoder, SciFact Benchmark | [📂 View Project](./projects/01_scientific_semantic_search) |
+| **Computer Vision Experiments** | CV | OpenCV, Image Processing, Face Detection | [📂 View Project](./projects/02_computer_vision_experiments) |
+| **Graph Network Analysis** | Network Science | NetworkX, Graph Theory, Anomaly Detection | [📂 View Project](./projects/03_graph_analysis) |
 
-```text
-python-bootcamp/
-│
-├── python basics
-│   ├── list,set,tuple,dictionary
-│   ├── functions/
-|
-|
-│──OOP   
-│
-├── numpy/
-├── pandas/
-├── matplotlib/
-│
-|── Agent Base Modeling
-│
-├── Computer Vision
-|
-│
-├── Networkx
-│
-│
-└── projects/
-    ├── MidTerm project
-    ├── Snake
+---
 
-## Projects
+### 🔍 Spotlight: Scientific Semantic Search Pipeline
 
-### MidTerm Project
- including data preprocessing, data analyze and using Matplotlib to draw plots and visualizing the analysis
+An end-to-end comparison of traditional keyword retrieval vs. dense neural representations over the **SciFact** dataset.
 
- ### Snake
-  a small simulation of snake game.
+* **Key Implementations:**
+  * **Sparse Retrieval:** TF-IDF baseline (`scikit-learn`)
+  * **Dense Retrieval (Bi-Encoder):** `all-MiniLM-L6-v2` with normalized embeddings & cosine similarity
+  * **Re-ranking (Cross-Encoder):** `ms-marco-MiniLM-L-6-v2` for high-precision top-k scoring
+* **Benchmark Evaluation (Top-100 SciFact queries @ k=5):**
+  * `TF-IDF`: Recall@5: **0.7323** | Precision@5: **0.1620**
+  * `Bi-Encoder`: Recall@5: **0.7860** | Precision@5: **0.1780**
+  * `Bi-Encoder + Cross-Encoder`: Recall@5: **0.7902** | Precision@5: **0.1780**
 
+---
 
-## Technologies
+## 🛠️ Tech Stack & Libraries
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* OpenCV
-* NetworkX
-* SciKit Learn
+- **Languages:** Python
+- **Data & Scientific Computing:** NumPy, Pandas, Scikit-learn
+- **Deep Learning & NLP:** PyTorch, Sentence-Transformers
+- **Analysis & Vision:** NetworkX, Matplotlib, OpenCV
 
-## Purpose
+---
 
-The main purpose of this repository is to document my progress, practice concepts through implementation, and build a portfolio of practical Python.
-
-The repository is continuously updated as I learn new concepts and develop new projects.
