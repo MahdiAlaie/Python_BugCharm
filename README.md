@@ -8,7 +8,7 @@ This repository tracks my hands-on journey through Python programming, Machine L
 
 | Project | Domain | Core Tech / Concepts | Direct Link |
 | :--- | :--- | :--- | :--- |
-| **Scientific Semantic Search** | NLP / IR | TF-IDF, Sentence Transformers, Cross-Encoder, SciFact Benchmark | [📂 View Project](./projects/Semantic_Search) |
+| **Scientific Semantic Search** | NLP / IR | TF-IDF, Sentence Transformers, Cross-Encoder, SciFact Benchmark | [📂 View Project](./projects/Semantics_Search) |
 | **Exploratory Data Analysis & Preprocessing** (MidTerm) | Data Analysis | Pandas, NumPy, Data Cleaning, Matplotlib Visualizations | [📂 View Project](./projects/MidTerm_Project)
 | **Computer Vision Experiments** | CV | OpenCV, Image Processing, Face Detection | [📂 View Project](./Computer_Vision)
 | **Machine Learning Pipelines** | ML / Predictive Modeling | Scikit-learn, Classification, Regression, Model Evaluation | [📂 View Module](./Projects/Machine_learning)
